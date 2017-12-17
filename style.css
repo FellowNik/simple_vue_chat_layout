@@ -1,0 +1,55 @@
+.simpeVueChat__message {       
+    overflow: hidden;
+    max-width: 80%;
+    margin: 7px 7px 7px;
+    clear: both;
+    
+}
+
+.simpeVueChat__message-info {
+    color: #b9adad;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.simpeVueChat__message-body {
+    padding: 14px 15px;
+    box-shadow: 0px 0px 7px -4px gray inset;
+    border-radius: 5px;
+    background: white;
+}
+
+.simpeVueChat__message_companion {
+    text-align: right;
+    float: right;
+}
+
+.simpeVueChat__message_you {
+    float: left;
+    text-align: left;
+}
+
+.simpeVueChat__wrap {
+    border: 1px solid #87959e;
+    background: #f6f9fb;
+}
+
+.simpeVueChat__head {
+    border: 1px solid #415865;
+    padding: 15px 17px;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #95a4ad;
+    background: white;
+}
+
+.simpeVueChat__message-area {
+    resize: vertical;
+    height: 80px;
+    width: 100%;
+    border-top: 1px solid rgb(214, 214, 224);
+    background: white none repeat scroll 0% 0%;
+    padding: 7px 8px;
+    box-sizing: border-box;
+    border-left: 0px;
+}

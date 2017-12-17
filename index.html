@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <title>Simple Vue chat</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>        
-        <div style="max-width: 300px;">
+        <div style="max-width: 432px;">
             
             <div id="simpleVueChat">
                 <div class="simpeVueChat__wrap">
@@ -20,19 +21,23 @@
                                 <span class="simpeVueChat__message-owner">Павел Николаев</span>
                                 <span class="simpeVueChat__message-date">12.15.2017 12:10</span>
                             </span>
+                            <div class="simpeVueChat__message-body">
                             message opponents
+                            </div>
                         </div>
                         <div class="simpeVueChat__message simpeVueChat__message_you">
                             <span class="simpeVueChat__message-info">
                                 <span class="simpeVueChat__message-owner">Я</span>
                                 <span class="simpeVueChat__message-date">12.15.2017 24:10</span>
                             </span>
+                            <div class="simpeVueChat__message-body">
                             message you
+                            </div>
                         </div>
                     </div>
                     <div class="simpeVueChat__message-box">
                         <div class="simpeVueChat__message-send glyphicon glyphicon-send"></div>
-                        <textarea name="" class="simpeVueChat__message-area"></textarea>
+                        <textarea class="simpeVueChat__message-area"></textarea>
                     </div>
                 </div>                
             </div>
